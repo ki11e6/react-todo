@@ -1,12 +1,13 @@
 import './App.css';
-import TaskForm from './TaskForm';
+// import TodoForm from './components/TodoForm/TodoForm.component';
+import TodoWrapper from './components/TodoWrapper/TodoWrapper.Component';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <TaskForm />
-    </div>
+    <main>
+      <TodoWrapper />
+    </main>
   );
-}
+};
 
 export default App;
